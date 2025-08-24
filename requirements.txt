@@ -1,8 +1,2 @@
-asyncio
-logging
-jsonlib
-os
-datetime
-collections
 telethon==1.36.0
 google-generativeai
