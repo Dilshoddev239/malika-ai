@@ -12,8 +12,7 @@ import random
 # Sozlamalar
 API_ID = '21054444'  # Telegram API ID
 API_HASH = "1b22b094e7bd955432d2f3bd7d79e2ed"  
-SESSION_NAME = '/home/dilshod2012/malika-ai/malika_session'
-
+SESSION_NAME = 'malika_session'  # Session fayli nomi
 
 # Gemini API kalitlari ro'yxati
 GEMINI_API_KEYS = [
@@ -408,5 +407,4 @@ async def main():
 
 if __name__ == "__main__":
     # Botni ishga tushirish
-
     asyncio.run(main())
